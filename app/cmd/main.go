@@ -16,6 +16,11 @@ import (
 	"time"
 )
 
+// todo: add initial setup migration in SQL
+// todo: fix some mismatches device_id->device_name
+// todo: finish handler layer
+// todo: deprecate all unusable function in repo layer
+
 func main() {
 	conf, err := config.LoadConfigFile(".env")
 	if err != nil {
