@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: smart_home_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: smart_home_db
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    ports:
+      - "2345:5432"
+
+  mosquitto:
+    image: eclipse-mosquitto:2
+    container_name: mosquitto
+    restart: no
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mqtt/config:/mosquitto/config
+      - ./mqtt/data:/mosquitto/data
+      - ./mqtt/log:/mosquitto/log
+    entrypoint: [ "/bin/sh", "-c", "/mosquitto/config/passwd.sh && mosquitto -c /mosquitto/config/mosquitto.conf" ]
+
+volumes:
+  pg_data:
