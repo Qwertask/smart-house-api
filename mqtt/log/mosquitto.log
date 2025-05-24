@@ -1,0 +1,721 @@
+1747835841: mosquitto version 2.0.21 starting
+1747835841: Config loaded from /mosquitto/config/mosquitto.conf.
+1747835841: Warning: File /mosquitto/config/passwordfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwordfile`.
+1747835841: Opening ipv4 listen socket on port 1883.
+1747835841: Opening ipv6 listen socket on port 1883.
+1747835841: mosquitto version 2.0.21 running
+1747835872: New connection from 172.22.0.1:38008 on port 1883.
+1747835872: New client connected from 172.22.0.1:38008 as postman-mqtt-client-1747835545102 (p5, c0, k60, u'admin').
+1747835872: No will message specified.
+1747835872: Sending CONNACK to postman-mqtt-client-1747835545102 (0, 0)
+1747835874: Received PUBLISH from postman-mqtt-client-1747835545102 (d0, q1, r1, m21274, 'test', ... (27 bytes))
+1747835874: Sending PUBACK to postman-mqtt-client-1747835545102 (m21274, rc16)
+1747835931: Received SUBSCRIBE from postman-mqtt-client-1747835545102
+1747835931: 	test (QoS 0)
+1747835931: postman-mqtt-client-1747835545102 0 test
+1747835931: Sending SUBACK to postman-mqtt-client-1747835545102
+1747835931: Sending PUBLISH to postman-mqtt-client-1747835545102 (d0, q0, r1, m0, 'test', ... (27 bytes))
+1747835951: Received PUBLISH from postman-mqtt-client-1747835545102 (d0, q1, r1, m21276, 'test', ... (27 bytes))
+1747835951: Sending PUBLISH to postman-mqtt-client-1747835545102 (d0, q0, r0, m0, 'test', ... (27 bytes))
+1747835951: Sending PUBACK to postman-mqtt-client-1747835545102 (m21276, rc0)
+1747835955: Received PUBLISH from postman-mqtt-client-1747835545102 (d0, q1, r1, m21277, 'test', ... (27 bytes))
+1747835955: Sending PUBLISH to postman-mqtt-client-1747835545102 (d0, q0, r0, m0, 'test', ... (27 bytes))
+1747835955: Sending PUBACK to postman-mqtt-client-1747835545102 (m21277, rc0)
+1747836016: Received PINGREQ from postman-mqtt-client-1747835545102
+1747836016: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747836053: Received PUBLISH from postman-mqtt-client-1747835545102 (d0, q1, r1, m21278, 'test', ... (27 bytes))
+1747836053: Sending PUBLISH to postman-mqtt-client-1747835545102 (d0, q0, r0, m0, 'test', ... (27 bytes))
+1747836053: Sending PUBACK to postman-mqtt-client-1747835545102 (m21278, rc0)
+1747836113: Received PINGREQ from postman-mqtt-client-1747835545102
+1747836113: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747836173: Received PINGREQ from postman-mqtt-client-1747835545102
+1747836173: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747836234: Received PINGREQ from postman-mqtt-client-1747835545102
+1747836234: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747836294: Received PINGREQ from postman-mqtt-client-1747835545102
+1747836294: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747836355: Received PINGREQ from postman-mqtt-client-1747835545102
+1747836355: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747836415: Received PINGREQ from postman-mqtt-client-1747835545102
+1747836415: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747836473: Received PINGREQ from postman-mqtt-client-1747835545102
+1747836473: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747836533: Received PINGREQ from postman-mqtt-client-1747835545102
+1747836533: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747836593: Received PINGREQ from postman-mqtt-client-1747835545102
+1747836593: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747836608: Received PUBLISH from postman-mqtt-client-1747835545102 (d0, q1, r1, m21279, 'test', ... (47 bytes))
+1747836608: Sending PUBLISH to postman-mqtt-client-1747835545102 (d0, q0, r0, m0, 'test', ... (47 bytes))
+1747836608: Sending PUBACK to postman-mqtt-client-1747835545102 (m21279, rc0)
+1747836666: Received PINGREQ from postman-mqtt-client-1747835545102
+1747836666: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747836726: Received PINGREQ from postman-mqtt-client-1747835545102
+1747836726: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747836786: Received PINGREQ from postman-mqtt-client-1747835545102
+1747836786: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747836847: Received PINGREQ from postman-mqtt-client-1747835545102
+1747836847: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747836907: Received PINGREQ from postman-mqtt-client-1747835545102
+1747836907: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747836967: Received PINGREQ from postman-mqtt-client-1747835545102
+1747836967: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747836989: Received PUBLISH from postman-mqtt-client-1747835545102 (d0, q1, r1, m21280, 'test', ... (14 bytes))
+1747836989: Sending PUBLISH to postman-mqtt-client-1747835545102 (d0, q0, r0, m0, 'test', ... (14 bytes))
+1747836989: Sending PUBACK to postman-mqtt-client-1747835545102 (m21280, rc0)
+1747836996: Received PUBLISH from postman-mqtt-client-1747835545102 (d0, q1, r1, m21281, 'test', ... (4 bytes))
+1747836996: Sending PUBLISH to postman-mqtt-client-1747835545102 (d0, q0, r0, m0, 'test', ... (4 bytes))
+1747836996: Sending PUBACK to postman-mqtt-client-1747835545102 (m21281, rc0)
+1747837054: Received PINGREQ from postman-mqtt-client-1747835545102
+1747837054: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747837115: Received PINGREQ from postman-mqtt-client-1747835545102
+1747837115: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747837175: Received PINGREQ from postman-mqtt-client-1747835545102
+1747837175: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747837231: Received PUBLISH from postman-mqtt-client-1747835545102 (d0, q1, r1, m21282, 'test', ... (4 bytes))
+1747837231: Sending PUBLISH to postman-mqtt-client-1747835545102 (d0, q0, r0, m0, 'test', ... (4 bytes))
+1747837231: Sending PUBACK to postman-mqtt-client-1747835545102 (m21282, rc0)
+1747837232: Received PUBLISH from postman-mqtt-client-1747835545102 (d0, q1, r1, m21283, 'test', ... (4 bytes))
+1747837232: Sending PUBLISH to postman-mqtt-client-1747835545102 (d0, q0, r0, m0, 'test', ... (4 bytes))
+1747837232: Sending PUBACK to postman-mqtt-client-1747835545102 (m21283, rc0)
+1747837256: Received PUBLISH from postman-mqtt-client-1747835545102 (d0, q1, r1, m21284, 'test', ... (4 bytes))
+1747837256: Sending PUBLISH to postman-mqtt-client-1747835545102 (d0, q0, r0, m0, 'test', ... (4 bytes))
+1747837256: Sending PUBACK to postman-mqtt-client-1747835545102 (m21284, rc0)
+1747837274: Received PUBLISH from postman-mqtt-client-1747835545102 (d0, q1, r1, m21285, 'test', ... (10 bytes))
+1747837274: Sending PUBLISH to postman-mqtt-client-1747835545102 (d0, q0, r0, m0, 'test', ... (10 bytes))
+1747837274: Sending PUBACK to postman-mqtt-client-1747835545102 (m21285, rc0)
+1747837334: Received PINGREQ from postman-mqtt-client-1747835545102
+1747837334: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747837395: Received PINGREQ from postman-mqtt-client-1747835545102
+1747837395: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747837455: Received PINGREQ from postman-mqtt-client-1747835545102
+1747837455: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747837515: Received PINGREQ from postman-mqtt-client-1747835545102
+1747837515: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747837576: Received PINGREQ from postman-mqtt-client-1747835545102
+1747837576: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747837634: Received PINGREQ from postman-mqtt-client-1747835545102
+1747837634: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747837642: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747837694: Received PINGREQ from postman-mqtt-client-1747835545102
+1747837694: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747837754: Received PINGREQ from postman-mqtt-client-1747835545102
+1747837754: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747837816: Received PINGREQ from postman-mqtt-client-1747835545102
+1747837816: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747837875: Received PINGREQ from postman-mqtt-client-1747835545102
+1747837875: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747837935: Received PINGREQ from postman-mqtt-client-1747835545102
+1747837935: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747837996: Received PINGREQ from postman-mqtt-client-1747835545102
+1747837996: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747838053: Received PINGREQ from postman-mqtt-client-1747835545102
+1747838053: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747838114: Received PINGREQ from postman-mqtt-client-1747835545102
+1747838114: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747838174: Received PINGREQ from postman-mqtt-client-1747835545102
+1747838174: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747838234: Received PINGREQ from postman-mqtt-client-1747835545102
+1747838234: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747838295: Received PINGREQ from postman-mqtt-client-1747835545102
+1747838295: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747838355: Received PINGREQ from postman-mqtt-client-1747835545102
+1747838355: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747838416: Received PINGREQ from postman-mqtt-client-1747835545102
+1747838416: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747838476: Received PINGREQ from postman-mqtt-client-1747835545102
+1747838476: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747838534: Received PINGREQ from postman-mqtt-client-1747835545102
+1747838534: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747838594: Received PINGREQ from postman-mqtt-client-1747835545102
+1747838594: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747838654: Received PINGREQ from postman-mqtt-client-1747835545102
+1747838654: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747838715: Received PINGREQ from postman-mqtt-client-1747835545102
+1747838715: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747838775: Received PINGREQ from postman-mqtt-client-1747835545102
+1747838775: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747838835: Received PINGREQ from postman-mqtt-client-1747835545102
+1747838835: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747838896: Received PINGREQ from postman-mqtt-client-1747835545102
+1747838896: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747838954: Received PINGREQ from postman-mqtt-client-1747835545102
+1747838954: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747839014: Received PINGREQ from postman-mqtt-client-1747835545102
+1747839014: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747839075: Received PINGREQ from postman-mqtt-client-1747835545102
+1747839075: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747839135: Received PINGREQ from postman-mqtt-client-1747835545102
+1747839135: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747839195: Received PINGREQ from postman-mqtt-client-1747835545102
+1747839195: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747839256: Received PINGREQ from postman-mqtt-client-1747835545102
+1747839256: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747839316: Received PINGREQ from postman-mqtt-client-1747835545102
+1747839316: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747839374: Received PINGREQ from postman-mqtt-client-1747835545102
+1747839374: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747839434: Received PINGREQ from postman-mqtt-client-1747835545102
+1747839434: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747839443: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747839496: Received PINGREQ from postman-mqtt-client-1747835545102
+1747839496: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747839555: Received PINGREQ from postman-mqtt-client-1747835545102
+1747839555: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747839615: Received PINGREQ from postman-mqtt-client-1747835545102
+1747839615: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747839676: Received PINGREQ from postman-mqtt-client-1747835545102
+1747839676: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747839736: Received PINGREQ from postman-mqtt-client-1747835545102
+1747839736: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747839794: Received PINGREQ from postman-mqtt-client-1747835545102
+1747839794: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747839854: Received PINGREQ from postman-mqtt-client-1747835545102
+1747839854: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747839915: Received PINGREQ from postman-mqtt-client-1747835545102
+1747839915: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747839975: Received PINGREQ from postman-mqtt-client-1747835545102
+1747839975: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747840035: Received PINGREQ from postman-mqtt-client-1747835545102
+1747840035: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747840095: Received PINGREQ from postman-mqtt-client-1747835545102
+1747840095: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747840156: Received PINGREQ from postman-mqtt-client-1747835545102
+1747840156: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747840214: Received PINGREQ from postman-mqtt-client-1747835545102
+1747840214: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747840274: Received PINGREQ from postman-mqtt-client-1747835545102
+1747840274: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747840335: Received PINGREQ from postman-mqtt-client-1747835545102
+1747840335: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747840395: Received PINGREQ from postman-mqtt-client-1747835545102
+1747840395: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747840455: Received PINGREQ from postman-mqtt-client-1747835545102
+1747840455: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747840516: Received PINGREQ from postman-mqtt-client-1747835545102
+1747840516: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747840576: Received PINGREQ from postman-mqtt-client-1747835545102
+1747840576: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747840634: Received PINGREQ from postman-mqtt-client-1747835545102
+1747840634: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747840694: Received PINGREQ from postman-mqtt-client-1747835545102
+1747840694: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747840754: Received PINGREQ from postman-mqtt-client-1747835545102
+1747840754: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747840815: Received PINGREQ from postman-mqtt-client-1747835545102
+1747840815: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747840875: Received PINGREQ from postman-mqtt-client-1747835545102
+1747840875: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747840936: Received PINGREQ from postman-mqtt-client-1747835545102
+1747840936: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747840996: Received PINGREQ from postman-mqtt-client-1747835545102
+1747840996: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747841054: Received PINGREQ from postman-mqtt-client-1747835545102
+1747841054: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747841114: Received PINGREQ from postman-mqtt-client-1747835545102
+1747841114: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747841175: Received PINGREQ from postman-mqtt-client-1747835545102
+1747841175: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747841235: Received PINGREQ from postman-mqtt-client-1747835545102
+1747841235: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747841244: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747841295: Received PINGREQ from postman-mqtt-client-1747835545102
+1747841295: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747841356: Received PINGREQ from postman-mqtt-client-1747835545102
+1747841356: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747841416: Received PINGREQ from postman-mqtt-client-1747835545102
+1747841416: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747841474: Received PINGREQ from postman-mqtt-client-1747835545102
+1747841474: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747841534: Received PINGREQ from postman-mqtt-client-1747835545102
+1747841534: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747841595: Received PINGREQ from postman-mqtt-client-1747835545102
+1747841595: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747841655: Received PINGREQ from postman-mqtt-client-1747835545102
+1747841655: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747841716: Received PINGREQ from postman-mqtt-client-1747835545102
+1747841716: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747841776: Received PINGREQ from postman-mqtt-client-1747835545102
+1747841776: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747841834: Received PINGREQ from postman-mqtt-client-1747835545102
+1747841834: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747841894: Received PINGREQ from postman-mqtt-client-1747835545102
+1747841894: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747841955: Received PINGREQ from postman-mqtt-client-1747835545102
+1747841955: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747842015: Received PINGREQ from postman-mqtt-client-1747835545102
+1747842015: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747842075: Received PINGREQ from postman-mqtt-client-1747835545102
+1747842075: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747842136: Received PINGREQ from postman-mqtt-client-1747835545102
+1747842136: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747842196: Received PINGREQ from postman-mqtt-client-1747835545102
+1747842196: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747842254: Received PINGREQ from postman-mqtt-client-1747835545102
+1747842254: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747842315: Received PINGREQ from postman-mqtt-client-1747835545102
+1747842315: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747842375: Received PINGREQ from postman-mqtt-client-1747835545102
+1747842375: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747842436: Received PINGREQ from postman-mqtt-client-1747835545102
+1747842436: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747842496: Received PINGREQ from postman-mqtt-client-1747835545102
+1747842496: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747842556: Received PINGREQ from postman-mqtt-client-1747835545102
+1747842556: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747842614: Received PINGREQ from postman-mqtt-client-1747835545102
+1747842614: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747842674: Received PINGREQ from postman-mqtt-client-1747835545102
+1747842674: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747842735: Received PINGREQ from postman-mqtt-client-1747835545102
+1747842735: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747842795: Received PINGREQ from postman-mqtt-client-1747835545102
+1747842795: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747842856: Received PINGREQ from postman-mqtt-client-1747835545102
+1747842856: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747842916: Received PINGREQ from postman-mqtt-client-1747835545102
+1747842916: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747842974: Received PINGREQ from postman-mqtt-client-1747835545102
+1747842974: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747843034: Received PINGREQ from postman-mqtt-client-1747835545102
+1747843034: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747843045: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747843095: Received PINGREQ from postman-mqtt-client-1747835545102
+1747843095: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747843155: Received PINGREQ from postman-mqtt-client-1747835545102
+1747843155: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747843216: Received PINGREQ from postman-mqtt-client-1747835545102
+1747843216: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747843276: Received PINGREQ from postman-mqtt-client-1747835545102
+1747843276: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747843334: Received PINGREQ from postman-mqtt-client-1747835545102
+1747843334: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747843394: Received PINGREQ from postman-mqtt-client-1747835545102
+1747843394: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747843455: Received PINGREQ from postman-mqtt-client-1747835545102
+1747843455: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747843515: Received PINGREQ from postman-mqtt-client-1747835545102
+1747843515: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747843576: Received PINGREQ from postman-mqtt-client-1747835545102
+1747843576: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747843636: Received PINGREQ from postman-mqtt-client-1747835545102
+1747843636: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747843694: Received PINGREQ from postman-mqtt-client-1747835545102
+1747843694: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747843754: Received PINGREQ from postman-mqtt-client-1747835545102
+1747843754: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747843815: Received PINGREQ from postman-mqtt-client-1747835545102
+1747843815: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747843875: Received PINGREQ from postman-mqtt-client-1747835545102
+1747843875: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747843936: Received PINGREQ from postman-mqtt-client-1747835545102
+1747843936: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747843996: Received PINGREQ from postman-mqtt-client-1747835545102
+1747843996: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747844057: Received PINGREQ from postman-mqtt-client-1747835545102
+1747844057: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747844114: Received PINGREQ from postman-mqtt-client-1747835545102
+1747844114: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747844175: Received PINGREQ from postman-mqtt-client-1747835545102
+1747844175: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747844235: Received PINGREQ from postman-mqtt-client-1747835545102
+1747844235: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747844296: Received PINGREQ from postman-mqtt-client-1747835545102
+1747844296: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747844356: Received PINGREQ from postman-mqtt-client-1747835545102
+1747844356: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747844417: Received PINGREQ from postman-mqtt-client-1747835545102
+1747844417: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747844445: New connection from 172.22.0.1:55630 on port 1883.
+1747844445: Sending CONNACK to iot_go_server (0, 5)
+1747844445: Client iot_go_server disconnected, not authorised.
+1747844445: New connection from 172.22.0.1:55632 on port 1883.
+1747844445: Sending CONNACK to iot_go_server (0, 5)
+1747844445: Client iot_go_server disconnected, not authorised.
+1747844464: New connection from 172.22.0.1:41590 on port 1883.
+1747844464: Sending CONNACK to iot_go_server (0, 5)
+1747844464: Client iot_go_server disconnected, not authorised.
+1747844464: New connection from 172.22.0.1:41598 on port 1883.
+1747844464: Sending CONNACK to iot_go_server (0, 5)
+1747844464: Client iot_go_server disconnected, not authorised.
+1747844474: Received PINGREQ from postman-mqtt-client-1747835545102
+1747844474: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747844535: Received PINGREQ from postman-mqtt-client-1747835545102
+1747844535: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747844595: Received PINGREQ from postman-mqtt-client-1747835545102
+1747844595: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747844628: New connection from 172.22.0.1:33014 on port 1883.
+1747844628: Sending CONNACK to iot_go_server (0, 5)
+1747844628: Client iot_go_server disconnected, not authorised.
+1747844628: New connection from 172.22.0.1:33030 on port 1883.
+1747844628: Sending CONNACK to iot_go_server (0, 5)
+1747844628: Client iot_go_server disconnected, not authorised.
+1747844656: Received PINGREQ from postman-mqtt-client-1747835545102
+1747844656: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747844688: New connection from 172.22.0.1:54748 on port 1883.
+1747844688: New client connected from 172.22.0.1:54748 as iot_go_server (p2, c1, k30, u'admin').
+1747844688: No will message specified.
+1747844688: Sending CONNACK to iot_go_server (0, 0)
+1747844691: Received SUBSCRIBE from iot_go_server
+1747844691: 	sensor/dht22_1/data (QoS 1)
+1747844691: iot_go_server 1 sensor/dht22_1/data
+1747844691: Sending SUBACK to iot_go_server
+1747844691: Received SUBSCRIBE from iot_go_server
+1747844691: 	sensor/dht22_3/data (QoS 1)
+1747844691: iot_go_server 1 sensor/dht22_3/data
+1747844691: Sending SUBACK to iot_go_server
+1747844691: Received SUBSCRIBE from iot_go_server
+1747844691: 	sensor/leak_2/data (QoS 1)
+1747844691: iot_go_server 1 sensor/leak_2/data
+1747844691: Sending SUBACK to iot_go_server
+1747844691: Received SUBSCRIBE from iot_go_server
+1747844691: 	sensor/pir/data (QoS 1)
+1747844691: iot_go_server 1 sensor/pir/data
+1747844691: Sending SUBACK to iot_go_server
+1747844691: Received SUBSCRIBE from iot_go_server
+1747844691: 	sensor/leak_1/data (QoS 1)
+1747844691: iot_go_server 1 sensor/leak_1/data
+1747844691: Sending SUBACK to iot_go_server
+1747844691: Received SUBSCRIBE from iot_go_server
+1747844691: 	sensor/dht22_2/data (QoS 1)
+1747844691: iot_go_server 1 sensor/dht22_2/data
+1747844691: Sending SUBACK to iot_go_server
+1747844691: Received SUBSCRIBE from iot_go_server
+1747844691: 	sensor/dht22_4/data (QoS 1)
+1747844691: iot_go_server 1 sensor/dht22_4/data
+1747844691: Sending SUBACK to iot_go_server
+1747844691: Received SUBSCRIBE from iot_go_server
+1747844691: 	sensor/door/data (QoS 1)
+1747844691: iot_go_server 1 sensor/door/data
+1747844691: Sending SUBACK to iot_go_server
+1747844691: Received SUBSCRIBE from iot_go_server
+1747844691: 	sensor/ds18b20/data (QoS 1)
+1747844691: iot_go_server 1 sensor/ds18b20/data
+1747844691: Sending SUBACK to iot_go_server
+1747844691: Client iot_go_server closed its connection.
+1747844698: New connection from 172.22.0.1:47340 on port 1883.
+1747844698: New client connected from 172.22.0.1:47340 as iot_go_server (p2, c1, k30, u'admin').
+1747844698: No will message specified.
+1747844698: Sending CONNACK to iot_go_server (0, 0)
+1747844698: Received SUBSCRIBE from iot_go_server
+1747844698: 	sensor/pir/data (QoS 1)
+1747844698: iot_go_server 1 sensor/pir/data
+1747844698: Sending SUBACK to iot_go_server
+1747844698: Received SUBSCRIBE from iot_go_server
+1747844698: 	sensor/leak_1/data (QoS 1)
+1747844698: iot_go_server 1 sensor/leak_1/data
+1747844698: Sending SUBACK to iot_go_server
+1747844698: Received SUBSCRIBE from iot_go_server
+1747844698: 	sensor/dht22_1/data (QoS 1)
+1747844698: iot_go_server 1 sensor/dht22_1/data
+1747844698: Sending SUBACK to iot_go_server
+1747844698: Received SUBSCRIBE from iot_go_server
+1747844698: 	sensor/dht22_2/data (QoS 1)
+1747844698: iot_go_server 1 sensor/dht22_2/data
+1747844698: Sending SUBACK to iot_go_server
+1747844698: Received SUBSCRIBE from iot_go_server
+1747844698: 	sensor/dht22_3/data (QoS 1)
+1747844698: iot_go_server 1 sensor/dht22_3/data
+1747844698: Sending SUBACK to iot_go_server
+1747844698: Received SUBSCRIBE from iot_go_server
+1747844698: 	sensor/dht22_4/data (QoS 1)
+1747844698: iot_go_server 1 sensor/dht22_4/data
+1747844698: Sending SUBACK to iot_go_server
+1747844698: Received SUBSCRIBE from iot_go_server
+1747844698: 	sensor/door/data (QoS 1)
+1747844698: iot_go_server 1 sensor/door/data
+1747844698: Sending SUBACK to iot_go_server
+1747844698: Received SUBSCRIBE from iot_go_server
+1747844698: 	sensor/ds18b20/data (QoS 1)
+1747844698: iot_go_server 1 sensor/ds18b20/data
+1747844698: Sending SUBACK to iot_go_server
+1747844698: Received SUBSCRIBE from iot_go_server
+1747844698: 	sensor/leak_2/data (QoS 1)
+1747844698: iot_go_server 1 sensor/leak_2/data
+1747844698: Sending SUBACK to iot_go_server
+1747844716: Received PINGREQ from postman-mqtt-client-1747835545102
+1747844716: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747844733: Received PINGREQ from iot_go_server
+1747844733: Sending PINGRESP to iot_go_server
+1747844768: Received PINGREQ from iot_go_server
+1747844768: Sending PINGRESP to iot_go_server
+1747844777: Received PINGREQ from postman-mqtt-client-1747835545102
+1747844777: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747844798: Received PINGREQ from iot_go_server
+1747844798: Sending PINGRESP to iot_go_server
+1747844805: Received PUBLISH from iot_go_server (d0, q1, r0, m10, 'sensor/cooler/command', ... (33 bytes))
+1747844805: Sending PUBACK to iot_go_server (m10, rc0)
+1747844818: Client iot_go_server closed its connection.
+1747844821: New connection from 172.22.0.1:34602 on port 1883.
+1747844821: New client connected from 172.22.0.1:34602 as iot_go_server (p2, c1, k30, u'admin').
+1747844821: No will message specified.
+1747844821: Sending CONNACK to iot_go_server (0, 0)
+1747844822: Received SUBSCRIBE from iot_go_server
+1747844822: 	sensor/dht22_2/data (QoS 1)
+1747844822: iot_go_server 1 sensor/dht22_2/data
+1747844822: Sending SUBACK to iot_go_server
+1747844822: Received SUBSCRIBE from iot_go_server
+1747844822: 	sensor/ds18b20/data (QoS 1)
+1747844822: iot_go_server 1 sensor/ds18b20/data
+1747844822: Sending SUBACK to iot_go_server
+1747844822: Received SUBSCRIBE from iot_go_server
+1747844822: 	sensor/leak_1/data (QoS 1)
+1747844822: iot_go_server 1 sensor/leak_1/data
+1747844822: Sending SUBACK to iot_go_server
+1747844822: Received SUBSCRIBE from iot_go_server
+1747844822: 	sensor/leak_2/data (QoS 1)
+1747844822: iot_go_server 1 sensor/leak_2/data
+1747844822: Sending SUBACK to iot_go_server
+1747844822: Received SUBSCRIBE from iot_go_server
+1747844822: 	sensor/dht22_1/data (QoS 1)
+1747844822: iot_go_server 1 sensor/dht22_1/data
+1747844822: Sending SUBACK to iot_go_server
+1747844822: Received SUBSCRIBE from iot_go_server
+1747844822: 	sensor/dht22_3/data (QoS 1)
+1747844822: iot_go_server 1 sensor/dht22_3/data
+1747844822: Sending SUBACK to iot_go_server
+1747844822: Received SUBSCRIBE from iot_go_server
+1747844822: 	sensor/dht22_4/data (QoS 1)
+1747844822: iot_go_server 1 sensor/dht22_4/data
+1747844822: Sending SUBACK to iot_go_server
+1747844822: Received SUBSCRIBE from iot_go_server
+1747844822: 	sensor/door/data (QoS 1)
+1747844822: iot_go_server 1 sensor/door/data
+1747844822: Sending SUBACK to iot_go_server
+1747844822: Received SUBSCRIBE from iot_go_server
+1747844822: 	sensor/pir/data (QoS 1)
+1747844822: iot_go_server 1 sensor/pir/data
+1747844822: Sending SUBACK to iot_go_server
+1747844826: Received PUBLISH from iot_go_server (d0, q1, r0, m10, 'sensor/cooler/command', ... (33 bytes))
+1747844826: Sending PUBACK to iot_go_server (m10, rc0)
+1747844834: Received PINGREQ from postman-mqtt-client-1747835545102
+1747844834: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747844846: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1747844861: Received PINGREQ from iot_go_server
+1747844861: Sending PINGRESP to iot_go_server
+1747844888: Client iot_go_server closed its connection.
+1747844892: New connection from 172.22.0.1:57956 on port 1883.
+1747844892: New client connected from 172.22.0.1:57956 as iot_go_server (p2, c1, k30, u'admin').
+1747844892: No will message specified.
+1747844892: Sending CONNACK to iot_go_server (0, 0)
+1747844892: Received SUBSCRIBE from iot_go_server
+1747844892: 	sensor/dht22_1/data (QoS 1)
+1747844892: iot_go_server 1 sensor/dht22_1/data
+1747844892: Sending SUBACK to iot_go_server
+1747844892: Received SUBSCRIBE from iot_go_server
+1747844892: 	sensor/dht22_4/data (QoS 1)
+1747844892: iot_go_server 1 sensor/dht22_4/data
+1747844892: Sending SUBACK to iot_go_server
+1747844892: Received SUBSCRIBE from iot_go_server
+1747844892: 	sensor/door/data (QoS 1)
+1747844892: iot_go_server 1 sensor/door/data
+1747844892: Sending SUBACK to iot_go_server
+1747844892: Received SUBSCRIBE from iot_go_server
+1747844892: 	sensor/leak_1/data (QoS 1)
+1747844892: iot_go_server 1 sensor/leak_1/data
+1747844892: Sending SUBACK to iot_go_server
+1747844892: Received SUBSCRIBE from iot_go_server
+1747844892: 	sensor/leak_2/data (QoS 1)
+1747844892: iot_go_server 1 sensor/leak_2/data
+1747844892: Sending SUBACK to iot_go_server
+1747844892: Received SUBSCRIBE from iot_go_server
+1747844892: 	sensor/dht22_2/data (QoS 1)
+1747844892: iot_go_server 1 sensor/dht22_2/data
+1747844892: Sending SUBACK to iot_go_server
+1747844892: Received SUBSCRIBE from iot_go_server
+1747844892: 	sensor/dht22_3/data (QoS 1)
+1747844892: iot_go_server 1 sensor/dht22_3/data
+1747844892: Sending SUBACK to iot_go_server
+1747844892: Received SUBSCRIBE from iot_go_server
+1747844892: 	sensor/ds18b20/data (QoS 1)
+1747844892: iot_go_server 1 sensor/ds18b20/data
+1747844892: Sending SUBACK to iot_go_server
+1747844892: Received SUBSCRIBE from iot_go_server
+1747844892: 	sensor/pir/data (QoS 1)
+1747844892: iot_go_server 1 sensor/pir/data
+1747844892: Sending SUBACK to iot_go_server
+1747844894: Received PUBLISH from iot_go_server (d0, q1, r0, m10, 'sensor/cooler/command', ... (33 bytes))
+1747844894: Sending PUBACK to iot_go_server (m10, rc0)
+1747844895: Received PINGREQ from postman-mqtt-client-1747835545102
+1747844895: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747844927: Received PINGREQ from iot_go_server
+1747844927: Sending PINGRESP to iot_go_server
+1747844955: Received PINGREQ from postman-mqtt-client-1747835545102
+1747844955: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747844957: Received PINGREQ from iot_go_server
+1747844957: Sending PINGRESP to iot_go_server
+1747844991: Received PINGREQ from iot_go_server
+1747844991: Sending PINGRESP to iot_go_server
+1747845016: Received PINGREQ from postman-mqtt-client-1747835545102
+1747845016: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747845026: Received PINGREQ from iot_go_server
+1747845026: Sending PINGRESP to iot_go_server
+1747845057: Received PINGREQ from iot_go_server
+1747845057: Sending PINGRESP to iot_go_server
+1747845076: Received PINGREQ from postman-mqtt-client-1747835545102
+1747845076: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747845091: Received PINGREQ from iot_go_server
+1747845091: Sending PINGRESP to iot_go_server
+1747845122: Received PINGREQ from iot_go_server
+1747845122: Sending PINGRESP to iot_go_server
+1747845133: Client iot_go_server closed its connection.
+1747845137: Received PINGREQ from postman-mqtt-client-1747835545102
+1747845137: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747845138: New connection from 172.22.0.1:35704 on port 1883.
+1747845138: New client connected from 172.22.0.1:35704 as iot_go_server (p2, c1, k30, u'admin').
+1747845138: No will message specified.
+1747845138: Sending CONNACK to iot_go_server (0, 0)
+1747845138: Received SUBSCRIBE from iot_go_server
+1747845138: 	sensor/dht22_3/data (QoS 1)
+1747845138: iot_go_server 1 sensor/dht22_3/data
+1747845138: Sending SUBACK to iot_go_server
+1747845138: Received SUBSCRIBE from iot_go_server
+1747845138: 	sensor/leak_1/data (QoS 1)
+1747845138: iot_go_server 1 sensor/leak_1/data
+1747845138: Sending SUBACK to iot_go_server
+1747845138: Received SUBSCRIBE from iot_go_server
+1747845138: 	sensor/dht22_1/data (QoS 1)
+1747845138: iot_go_server 1 sensor/dht22_1/data
+1747845138: Sending SUBACK to iot_go_server
+1747845138: Received SUBSCRIBE from iot_go_server
+1747845138: 	sensor/dht22_2/data (QoS 1)
+1747845138: iot_go_server 1 sensor/dht22_2/data
+1747845138: Sending SUBACK to iot_go_server
+1747845138: Received SUBSCRIBE from iot_go_server
+1747845138: 	sensor/dht22_4/data (QoS 1)
+1747845138: iot_go_server 1 sensor/dht22_4/data
+1747845138: Sending SUBACK to iot_go_server
+1747845138: Received SUBSCRIBE from iot_go_server
+1747845138: 	sensor/door/data (QoS 1)
+1747845138: iot_go_server 1 sensor/door/data
+1747845138: Sending SUBACK to iot_go_server
+1747845138: Received SUBSCRIBE from iot_go_server
+1747845138: 	sensor/ds18b20/data (QoS 1)
+1747845138: iot_go_server 1 sensor/ds18b20/data
+1747845138: Sending SUBACK to iot_go_server
+1747845138: Received SUBSCRIBE from iot_go_server
+1747845138: 	sensor/pir/data (QoS 1)
+1747845138: iot_go_server 1 sensor/pir/data
+1747845138: Sending SUBACK to iot_go_server
+1747845138: Received SUBSCRIBE from iot_go_server
+1747845138: 	sensor/leak_2/data (QoS 1)
+1747845138: iot_go_server 1 sensor/leak_2/data
+1747845138: Sending SUBACK to iot_go_server
+1747845140: Received PUBLISH from iot_go_server (d0, q1, r0, m10, 'sensor/cooler/command', ... (33 bytes))
+1747845140: Sending PUBACK to iot_go_server (m10, rc0)
+1747845173: Received PINGREQ from iot_go_server
+1747845173: Sending PINGRESP to iot_go_server
+1747845195: Received PINGREQ from postman-mqtt-client-1747835545102
+1747845195: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747845206: Received PINGREQ from iot_go_server
+1747845206: Sending PINGRESP to iot_go_server
+1747845238: Received PINGREQ from iot_go_server
+1747845238: Sending PINGRESP to iot_go_server
+1747845255: Received PINGREQ from postman-mqtt-client-1747835545102
+1747845255: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747845268: Received PINGREQ from iot_go_server
+1747845268: Sending PINGRESP to iot_go_server
+1747845296: Received PINGREQ from iot_go_server
+1747845296: Sending PINGRESP to iot_go_server
+1747845315: Received PINGREQ from postman-mqtt-client-1747835545102
+1747845315: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747845333: Received PINGREQ from iot_go_server
+1747845333: Sending PINGRESP to iot_go_server
+1747845368: Received PINGREQ from iot_go_server
+1747845368: Sending PINGRESP to iot_go_server
+1747845376: Received PINGREQ from postman-mqtt-client-1747835545102
+1747845376: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747845403: Received PINGREQ from iot_go_server
+1747845403: Sending PINGRESP to iot_go_server
+1747845433: Received PINGREQ from iot_go_server
+1747845433: Sending PINGRESP to iot_go_server
+1747845436: Received PINGREQ from postman-mqtt-client-1747835545102
+1747845436: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747845457: Client iot_go_server closed its connection.
+1747845459: New connection from 172.22.0.1:45990 on port 1883.
+1747845459: New client connected from 172.22.0.1:45990 as iot_go_server (p2, c1, k30, u'admin').
+1747845459: No will message specified.
+1747845459: Sending CONNACK to iot_go_server (0, 0)
+1747845459: Received SUBSCRIBE from iot_go_server
+1747845459: 	sensor/dht22_2/data (QoS 1)
+1747845459: iot_go_server 1 sensor/dht22_2/data
+1747845459: Sending SUBACK to iot_go_server
+1747845459: Received SUBSCRIBE from iot_go_server
+1747845459: 	sensor/dht22_3/data (QoS 1)
+1747845459: iot_go_server 1 sensor/dht22_3/data
+1747845459: Sending SUBACK to iot_go_server
+1747845459: Received SUBSCRIBE from iot_go_server
+1747845459: 	sensor/door/data (QoS 1)
+1747845459: iot_go_server 1 sensor/door/data
+1747845459: Sending SUBACK to iot_go_server
+1747845459: Received SUBSCRIBE from iot_go_server
+1747845459: 	sensor/ds18b20/data (QoS 1)
+1747845459: iot_go_server 1 sensor/ds18b20/data
+1747845459: Sending SUBACK to iot_go_server
+1747845459: Received SUBSCRIBE from iot_go_server
+1747845459: 	sensor/pir/data (QoS 1)
+1747845459: iot_go_server 1 sensor/pir/data
+1747845459: Sending SUBACK to iot_go_server
+1747845459: Received SUBSCRIBE from iot_go_server
+1747845459: 	sensor/dht22_1/data (QoS 1)
+1747845459: iot_go_server 1 sensor/dht22_1/data
+1747845459: Sending SUBACK to iot_go_server
+1747845459: Received SUBSCRIBE from iot_go_server
+1747845459: 	sensor/dht22_4/data (QoS 1)
+1747845459: iot_go_server 1 sensor/dht22_4/data
+1747845459: Sending SUBACK to iot_go_server
+1747845459: Received SUBSCRIBE from iot_go_server
+1747845459: 	sensor/leak_1/data (QoS 1)
+1747845459: iot_go_server 1 sensor/leak_1/data
+1747845459: Sending SUBACK to iot_go_server
+1747845459: Received SUBSCRIBE from iot_go_server
+1747845459: 	sensor/leak_2/data (QoS 1)
+1747845459: iot_go_server 1 sensor/leak_2/data
+1747845459: Sending SUBACK to iot_go_server
+1747845464: Received PUBLISH from iot_go_server (d0, q1, r0, m10, 'sensor/cooler/command', ... (33 bytes))
+1747845464: Sending PUBACK to iot_go_server (m10, rc0)
+1747845496: Received PINGREQ from iot_go_server
+1747845496: Sending PINGRESP to iot_go_server
+1747845497: Received PINGREQ from postman-mqtt-client-1747835545102
+1747845497: Sending PINGRESP to postman-mqtt-client-1747835545102
+1747845516: Received SUBSCRIBE from postman-mqtt-client-1747835545102
+1747845516: 	sesor/cooler/command (QoS 0)
+1747845516: postman-mqtt-client-1747835545102 0 sesor/cooler/command
+1747845516: Sending SUBACK to postman-mqtt-client-1747835545102
+1747845530: Received PUBLISH from iot_go_server (d0, q1, r0, m11, 'sensor/cooler/command', ... (33 bytes))
+1747845530: Sending PUBACK to iot_go_server (m11, rc0)
+1747845544: Received DISCONNECT from postman-mqtt-client-1747835545102
+1747845544: Client postman-mqtt-client-1747835545102 disconnected.
+1747845545: New connection from 172.22.0.1:43814 on port 1883.
+1747845545: New client connected from 172.22.0.1:43814 as postman-mqtt-client-1747835545102 (p5, c0, k60, u'admin').
+1747845545: No will message specified.
+1747845545: Sending CONNACK to postman-mqtt-client-1747835545102 (0, 0)
+1747845545: Received SUBSCRIBE from postman-mqtt-client-1747835545102
+1747845545: 	test (QoS 0)
+1747845545: postman-mqtt-client-1747835545102 0 test
+1747845545: Sending SUBACK to postman-mqtt-client-1747835545102
+1747845545: Sending PUBLISH to postman-mqtt-client-1747835545102 (d0, q0, r1, m0, 'test', ... (10 bytes))
+1747845545: Received SUBSCRIBE from postman-mqtt-client-1747835545102
+1747845545: 	sesor/cooler/command (QoS 0)
+1747845545: postman-mqtt-client-1747835545102 0 sesor/cooler/command
+1747845545: Sending SUBACK to postman-mqtt-client-1747835545102
+1747845558: Received UNSUBSCRIBE from postman-mqtt-client-1747835545102
+1747845558: 	sesor/cooler/command
+1747845558: postman-mqtt-client-1747835545102 sesor/cooler/command
+1747845558: Sending UNSUBACK to postman-mqtt-client-1747835545102
+1747845558: Received PINGREQ from iot_go_server
+1747845558: Sending PINGRESP to iot_go_server
+1747845564: Received SUBSCRIBE from postman-mqtt-client-1747835545102
+1747845564: 	sensor/cooler/command (QoS 0)
+1747845564: postman-mqtt-client-1747835545102 0 sensor/cooler/command
+1747845564: Sending SUBACK to postman-mqtt-client-1747835545102
+1747845569: Received PUBLISH from iot_go_server (d0, q1, r0, m12, 'sensor/cooler/command', ... (33 bytes))
+1747845569: Sending PUBLISH to postman-mqtt-client-1747835545102 (d0, q0, r0, m0, 'sensor/cooler/command', ... (33 bytes))
+1747845569: Sending PUBACK to iot_go_server (m12, rc0)
+1747845601: Received PINGREQ from iot_go_server
+1747845601: Sending PINGRESP to iot_go_server
+1747845612: Received DISCONNECT from postman-mqtt-client-1747835545102
+1747845612: Client postman-mqtt-client-1747835545102 disconnected.
+1747845616: Client iot_go_server closed its connection.
+1747845637: mosquitto version 2.0.21 terminating
+1747845637: Saving in-memory database to /mosquitto/data//mosquitto.db.
