@@ -10,10 +10,11 @@ import (
 )
 
 type Config struct {
-	DB   DBConfig
-	S    ServerConfig
-	JWT  JWTConfig
-	MQTT MQTTConfig
+	DB    DBConfig
+	S     ServerConfig
+	JWT   JWTConfig
+	MQTT  MQTTConfig
+	Redis RedisConfig
 }
 
 func LoadConfigFile(path string) (*Config, error) {
@@ -107,6 +108,20 @@ func LoadConfigFile(path string) (*Config, error) {
 		Port:     mqport,
 		Login:    mqlogin,
 		Password: mqpass,
+	}
+
+	// Redis config
+
+	addr := os.Getenv("REDIS_ADDR")
+	database = os.Getenv("REDIS_DB")
+	databaseInt, err := strconv.Atoi(database)
+	if err != nil {
+		return nil, err
+	}
+
+	conf.Redis = RedisConfig{
+		Address:  addr,
+		Database: databaseInt,
 	}
 
 	return &conf, nil
