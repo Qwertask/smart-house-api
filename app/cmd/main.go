@@ -7,6 +7,7 @@ import (
 	"SmartHouseAPI/route"
 	"SmartHouseAPI/service"
 	"context"
+	"errors"
 	"fmt"
 	"log"
 	"net/http"
@@ -50,7 +51,7 @@ func main() {
 
 	go func() {
 		log.Printf("🚀 Запуск сервера на %s\n", address)
-		if err := srv.ListenAndServe(); err != nil && err != http.ErrServerClosed {
+		if err := srv.ListenAndServe(); err != nil && !errors.Is(err, http.ErrServerClosed) {
 			log.Fatalf("❌ Ошибка сервера: %v", err)
 		}
 	}()
