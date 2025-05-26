@@ -22,6 +22,6 @@ func (h *Handler) GetLightRecord(c *gin.Context) {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 		return
 	}
-	c.JSON(http.StatusOK, gin.H{"name": record.Name, "is_on": record.IsOn, "brightness": record.Brightness})
+	c.JSON(http.StatusOK, gin.H{"name": record.Name, "is_on": record.IsOn, "brightness": record.Brightness, "timestamp": record.Timestamp.Format(time.RFC3339)})
 	return
 }

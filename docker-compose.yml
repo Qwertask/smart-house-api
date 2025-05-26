@@ -27,5 +27,15 @@ services:
       - ./mqtt/log:/mosquitto/log
     entrypoint: [ "/bin/sh", "-c", "/mosquitto/config/passwd.sh && mosquitto -c /mosquitto/config/mosquitto.conf" ]
 
+  redis:
+    image: redis:latest
+    container_name: smart_home_redis
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
 volumes:
   pg_data:
+  redis_data:
