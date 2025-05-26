@@ -6,8 +6,8 @@ import (
 	"log"
 )
 
-func (s *Service) GetClimateControlRecord(ctx context.Context, id int) (*models.ClimateControl, error) {
-	record, err := s.repo.ReadClimateControlRecord(ctx, id)
+func (s *Service) GetClimateControlRecord(ctx context.Context, deviceName string) (*models.ClimateControl, error) {
+	record, err := s.repo.ReadClimateControlRecord(ctx, deviceName)
 	if err != nil {
 		log.Println(err)
 		return nil, err

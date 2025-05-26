@@ -12,7 +12,7 @@ type Service interface {
 	AddLightRecord(ctx context.Context, record models.Light) error
 	GenerateJWTAccessToken() (string, error)
 	GenerateJWTRefreshToken() (string, error)
-	GetClimateControlRecord(ctx context.Context, id int) (*models.ClimateControl, error)
+	GetClimateControlRecord(ctx context.Context, deviceName string) (*models.ClimateControl, error)
 	ValidateJWTToken(tokenString string) (bool, error)
 	UpdateUser(ctx context.Context, user models.User) error
 	SetLight(ctx context.Context, lightID int, on bool, brightness int) error
@@ -23,8 +23,9 @@ type Service interface {
 	GetMotionSensorRecord(ctx context.Context, id int) (*models.MotionSensor, error)
 	GetLightSensorRecord(ctx context.Context, id int) (*models.LightSensor, error)
 	GetLightRecord(ctx context.Context, id int) (*models.Light, error)
-	GetDoorSensorRecord(ctx context.Context, id int) (*models.DoorSensor, error)
+	GetDoorSensorRecord(ctx context.Context) (*models.DoorSensor, error)
 	GetDHT22SensorRecord(ctx context.Context, id int) (*models.DHT22Sensor, error)
+	GetDS18B20SensorRecord(ctx context.Context) (*models.DS18B20Sensor, error)
 }
 
 type CacheService interface {
